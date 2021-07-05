@@ -1,0 +1,35 @@
+body{
+    background-color: $fondo;
+    font-family: $fuente;
+    font-weight: $fuente-regular;
+}
+#header{
+    .header__navbar{
+        background-color: $primario;
+        color: $texto-secundario;
+        @media all and (min-width: 768px) {
+            background-color: $secundario;
+            color: $texto;
+        }
+        a {  font-size: 1.5rem;
+            color: $texto-secundario;
+            font-weight: $fuente-bold;
+         @media all and (min-width: 768px){
+            color: $primario;
+
+         }
+        }
+    }
+    .header__navbar.header__navbar--ligth{
+        background-color:$primario;
+    }
+}
+.miContenedor {
+    color: $secundario;
+    button{
+        font-size: 1rem;
+        padding: .25em 1.5em ;
+    background-color: $primario;
+    color: $texto-secundario;
+    }
+}

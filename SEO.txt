@@ -1,0 +1,6 @@
+Agregue las palabras clave:
+"cosmetica, skincare, belleza, cuidado personal, higiene, Libertia"
+Y la descripcion:
+"Tienda Libertia, todo para tu rutina"
+al inicio.html, que seria la primer pagina que apareceria al buscar las palabras clave, 
+en el navegador.

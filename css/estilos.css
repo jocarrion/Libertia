@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html {
+  position: relative;
+  min-height: 100%;
+}
+img{
+	width: 80px;	
+}
+div img{
+	width: 600px;
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+}
+.miPrimerTitulo{
+	font-size: 40px;
+  color: rgb(177, 52, 135);
+  text-align: center;
+  padding:50px;
+
+}
+table {
+	border: 3px solid;
+   }
+   
+  
+  th {
+	background-color:#f187e3;
+	border: 3px solid;
+   }
+  
+   tr, td {
+	border: 1px solid;
+   }
+  
+  p{
+	color: rgb(228, 81, 154);
+  }
+  .centrado{
+    text-align:center;
+    padding:8px;}
+    div{width:50%;
+    padding:8px;
+    margin:auto;}
+    center{margin:16px 0;
+  }
+  body { 
+    color: #424949;
+    font-family: 'Padauk', sans-serif;
+    background-color: #FDEDEC;
+    background-image: url("https://fondosmil.com/fondo/18704.jpg");
+    background-position: top center;
+}
+  .contenido { font-family: Arial, Helvetica, Sans-serif 
+}
+/* cambiar imagen despues */
+
+.estilo {
+  list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
+  list-style-position: inherit;
+}
+
+/* A partir de aca, voy a probar organizar la posicion de los divs*/
+
+.box {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: red;
+  color: white;
+  margin:20px;
+	padding:10px;
+  background-image: url("https://image.freepik.com/psd-gratis/tubo-crema-cosmetica-maqueta-caja_358694-1837.jpg");
+
+}
+#div1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("https://image.freepik.com/psd-gratis/tubo-crema-cosmetica-maqueta-caja_358694-1766.jpg");
+}
+
+#div2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("https://image.freepik.com/psd-gratis/maqueta-botella-cosmetica-base-paquete-caja_15431-568.jpg");
+}
+#div3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("https://image.freepik.com/psd-gratis/maqueta-botella-cepillo-cejas-cosmetico-paquete-caja_15431-570.jpg");
+}
+#div4 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("https://image.freepik.com/psd-gratis/maqueta-botella-aceite-esencial-cosmetico-paquete-caja_15431-572.jpg");
+}
+#div5 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("https://image.freepik.com/psd-gratis/maqueta-botella-locion-piel_53876-76377.jpg");
+}
+#div6 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("https://img.freepik.com/psd-gratis/botella-spray-maqueta-caja_358694-199.jpg?size=626&ext=jpg");
+
+}
+#div7 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  background-image: url("media/spray.jpg")
+}
+.box2 {
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  background: rgb(168, 9, 97);
+  color: white;
+  margin:20px;
+	padding:10px;
+}
+#divCon {
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  background: rgb(168, 9, 97);
+  color: white;
+}
+
+#divQui {
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  background: rgb(168, 9, 97);
+  color: white;
+}
+#divCo {
+  display: inline-block;
+  width: 600px;
+  height: 20px;
+  background: rgb(168, 9, 97);
+  color: white;
+
+}
+
+.contenedor  
+{ 
+ width: 45px;
+ height: 45px;
+ background-color: transparent;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+
+}

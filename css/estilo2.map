@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilo2.css",
+	"sources": [
+		"../scss/estilo2.scss",
+		"../scss/_variables.scss",
+		"../scss/_main.scss",
+		"../scss/_noticias.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n@import \"main\";\r\n@import \"noticias\";\r\n@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');",
+		"$primario: #FFD5D5;\r\n$secundario: #FC7FB2;\r\n$fondo: #FFF1E9;\r\n$texto: #000000;\r\n$texto-secundario: #B2B8A3;\r\n$fuente: 'Poppins', sans-serif;\r\n$fuente-ligth: 300;\r\n$fuente-regular:500;\r\n$fuente-bold:700;\r\n$colorBlanco: rgb(255, 241, 233);\r\n\r\n",
+		"body{\r\n    background-color: $fondo;\r\n    font-family: $fuente;\r\n    font-weight: $fuente-regular;\r\n}\r\n#header{\r\n    .header__navbar{\r\n        background-color: $primario;\r\n        color: $texto-secundario;\r\n        @media all and (min-width: 768px) {\r\n            background-color: $secundario;\r\n            color: $texto;\r\n        }\r\n        a {  font-size: 1.5rem;\r\n            color: $texto-secundario;\r\n            font-weight: $fuente-bold;\r\n         @media all and (min-width: 768px){\r\n            color: $primario;\r\n\r\n         }\r\n        }\r\n    }\r\n    .header__navbar.header__navbar--ligth{\r\n        background-color:$primario;\r\n    }\r\n}\r\n.miContenedor {\r\n    color: $secundario;\r\n    button{\r\n        font-size: 1rem;\r\n        padding: .25em 1.5em ;\r\n    background-color: $primario;\r\n    color: $texto-secundario;\r\n    }\r\n}\r\n",
+		"/*#noticias {\r\n    .titulo{\r\n        font-size: 1.5rem;\r\n    }\r\n}*/\r\n.main__noticias{\r\n\r\n}\r\n.main__titulo{\r\n\r\n}\r\n.main__titulo--dark{\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": "AAGA,OAAO,CAAC,6EAAI;;AEHZ,AAAA,IAAI,CAAA;EACA,gBAAgB,EDCZ,OAAO;ECAX,WAAW,EDGN,SAAS,EAAE,UAAU;ECF1B,WAAW,EDIC,GAAG;CCHlB;;;AACD,AACI,OADG,CACH,eAAe,CAAA;EACX,gBAAgB,EDPb,OAAO;ECQV,KAAK,EDJM,OAAO;CCiBrB;;AAZG,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;;EAJxC,AACI,OADG,CACH,eAAe,CAAA;IAIP,gBAAgB,EDTf,OAAO;ICUR,KAAK,EDRT,OAAO;GCkBV;;;;AAhBL,AAQQ,OARD,CACH,eAAe,CAOX,CAAC,CAAC;EAAG,SAAS,EAAE,MAAM;EAClB,KAAK,EDVE,OAAO;ECWd,WAAW,EDPV,GAAG;CCYP;;AAJA,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;;EAXzC,AAQQ,OARD,CACH,eAAe,CAOX,CAAC,CAAC;IAIE,KAAK,EDjBN,OAAO;GCoBT;;;;AAfT,AAiBI,OAjBG,CAiBH,eAAe,AAAA,sBAAsB,CAAA;EACjC,gBAAgB,EDvBb,OAAO;CCwBb;;;AAEL,AAAA,aAAa,CAAC;EACV,KAAK,ED1BI,OAAO;CCiCnB;;;AARD,AAEI,aAFS,CAET,MAAM,CAAA;EACF,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,WAAY;EACzB,gBAAgB,ED/BT,OAAO;ECgCd,KAAK,ED5BU,OAAO;CC6BrB;;ACjCL;;;;GAIG"
+}

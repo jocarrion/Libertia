@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(#ffffff, #ffffff, #ffffff, #DCDCDD);
+    font-family: "Raleway", sans-serif; }
+  
+  header nav {
+    background-image: linear-gradient(to right, #ffffff,rgb(252, 127, 178) ); }
+  
+  nav {
+    margin-bottom: 20px; }
+  
+  .menu a {
+    text-decoration: none;
+    color: #636466;
+    padding: 15px; }
+  
+ 
+  .boton {
+    background-color: rgb(252, 127, 178); }
+    .boton a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold; }
+  
+  
+  footer {
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(69, 69, 77);
+    text-align: center;
+    color: #ffffff; }
+  
+ 
+  

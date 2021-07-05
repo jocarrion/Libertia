@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/* line 1, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+body {
+  background-color: #FFF1E9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* line 7, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+#header .header__navbar {
+  background-color: #FFD5D5;
+  color: #B2B8A3;
+}
+
+@media all and (min-width: 768px) {
+  /* line 7, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+  #header .header__navbar {
+    background-color: #FC7FB2;
+    color: #000000;
+  }
+}
+
+/* line 14, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+#header .header__navbar a {
+  font-size: 1.5rem;
+  color: #B2B8A3;
+  font-weight: 700;
+}
+
+@media all and (min-width: 768px) {
+  /* line 14, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+  #header .header__navbar a {
+    color: #FFD5D5;
+  }
+}
+
+/* line 23, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+#header .header__navbar.header__navbar--ligth {
+  background-color: #FFD5D5;
+}
+
+/* line 27, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+.miContenedor {
+  color: #FC7FB2;
+}
+
+/* line 29, ../../Desktop/JosefinaCarrion-TiendaDeCosm/scss/_main.scss */
+.miContenedor button {
+  font-size: 1rem;
+  padding: .25em 1.5em;
+  background-color: #FFD5D5;
+  color: #B2B8A3;
+}
+
+/*#noticias {
+    .titulo{
+        font-size: 1.5rem;
+    }
+}*/
+
+/*# sourceMappingURL=estilo2.css.map */

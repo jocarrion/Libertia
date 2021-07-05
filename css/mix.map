@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mix.css",
+	"sources": [
+		"../scss/mix.scss"
+	],
+	"sourcesContent": [
+		"@mixin boton {\r\n    padding: 8px 10px;\r\n    border-radius: 5px;\r\n    border: 1px solid transparent;\r\n    background-color: $colorPrimario;\r\n    color: $colorNegro;\r\n    box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.571);\r\n    transition: all 0.2s ease-in-out;\r\n    text-decoration: none;\r\n}\r\n\r\n@mixin miBanner ($imagen){\r\n    @if $imagen == cafe {\r\n        min-height: 450px;\r\n        background-image: url('../media/imgskin.jpg');\r\n        background-position: center;\r\n        background-size: cover;\r\n    } @else if $imagen == compu{\r\n        min-height: 450px;\r\n        background-image: url('../media/img2.jpg');\r\n        background-position: center;\r\n        background-size: cover;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}
